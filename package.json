@@ -6,9 +6,10 @@
   "main": "copyTradeBot.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node main.cjs",
+    "dev": "node main.cjs",
+    "build:turboshreds": "cd turboshreds-bridge && cargo build --release",
+    "inspect:turboshreds": "node scripts/inspectTurboshredsShape.cjs"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.1",
