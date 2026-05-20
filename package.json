@@ -1,0 +1,48 @@
+{
+  "name": "dex-crawler",
+  "version": "1.0.0",
+  "description": "Monitor prices of tokens in different DEXs.",
+  "homepage": "https://github.com/cjxe/dex-crawler#readme",
+  "main": "copyTradeBot.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.8.0",
+    "@raydium-io/raydium-sdk": "^1.3.1-beta.58",
+    "@scure/base": "^2.0.0",
+    "@solana/web3.js": "^1.95.4",
+    "@triton-one/yellowstone-grpc": "^4.0.2",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v3-core": "^1.0.1",
+    "axios": "^1.7.7",
+    "base-x": "^5.0.1",
+    "bignumber.js": "^9.0.1",
+    "bs58": "^6.0.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^10.0.0",
+    "ethers": "5.4",
+    "mongodb": "^6.8.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^2.0.12",
+    "sleep-promise": "^9.1.0",
+    "web3": "^1.5.2",
+    "winston": "^3.3.3",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
