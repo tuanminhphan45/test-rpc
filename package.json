@@ -9,7 +9,8 @@
     "start": "node main.cjs",
     "dev": "node main.cjs",
     "build:turboshreds": "cd turboshreds-bridge && cargo build --release",
-    "inspect:turboshreds": "node scripts/inspectTurboshredsShape.cjs"
+    "inspect:turboshreds": "node scripts/inspectTurboshredsShape.cjs",
+    "dump:turboshreds": "node scripts/dumpTurboshredsRaw.cjs"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.1",
